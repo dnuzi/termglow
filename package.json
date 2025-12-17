@@ -1,0 +1,41 @@
+{
+  "name": "termglow",
+  "version": "1.0.0",
+  "description": "Zero-dep terminal styler with glows, boxes, tables, loadings, themes, CLI, and procedural previews. Build pro CLIs effortlessly!",
+  "main": "index.js",
+  "bin": {
+    "termglow": "./cli.js"
+  },
+  "scripts": {
+    "demo": "node examples/demo.js",
+    "table-demo": "node examples/table-demo.js",
+    "test": "node tests/basic.test.js",
+    "cli": "node cli.js"
+  },
+  "keywords": [
+    "terminal",
+    "console",
+    "styling",
+    "glow",
+    "cli",
+    "logger",
+    "box",
+    "table",
+    "spinner",
+    "progress",
+    "theme",
+    "image-preview"
+  ],
+  "author": "DanuZz <danupaacedemy@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnuzi/termglow.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/dnuzi/termglow/issues"
+  }
+}
