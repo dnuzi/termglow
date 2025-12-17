@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+
+# Lockfiles (commit package-lock.json for NPM; ignore yarn.lock if using Yarn)
+yarn.lock
+
+# Logs
+*.log
+
+# OS/IDE generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Tests/Examples (uncomment if not committing them)
+# tests/
+# examples/
