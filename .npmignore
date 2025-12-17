@@ -1,0 +1,14 @@
+# Exclude dev-only files from NPM publish
+tests/
+examples/
+.nyc_output/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+README.md  # Include in docs, but exclude from tarball if too long (optional)
+CHANGELOG.md
+.editorconfig
+.eslintrc.js
+tsconfig.json
+# Keep: package.json, index.js, cli.js, themes.js, LICENSE
